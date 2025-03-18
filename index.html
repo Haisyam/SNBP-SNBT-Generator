@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4079479040912824"
+      crossorigin="anonymous"
+    ></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="6iGJm9FhpM5PaGmKB2ocmh_lD8G87wqhUcNdMAmRuqU"
+    />
+    <meta
+      name="description"
+      content="SNBP Generator 2025 | Fake Lolos/ Gagal | Template Lolos SNBP 2025 |SNMPTN For Fun Only. SELAMAT! ANDA DINYATAKAN LULUS SELEKSI SNBP 2024. Silakan lakukan pendaftaran ulang. Status penerimaan Anda sebagai mahasiswa akan ditetapkan setelah PTN tujuan melakukan verifikasi data akademik (rapor dan/atau portofolio)."
+    />
+    <meta
+      name="keywords"
+      content="snbp generator, template snbp, template snbp 2025, fake snbp, fake generator snbp, fake lolos snbp, fake lulus snbp, snbp 2025, fake snbp 2025, fake snmptn, generator snmptn, template snmptn, fake tidak lolos snbp, generator snbp gagal, fake snbp anugrahbodi, selamat! anda dinyatakan lulus seleksi snbp 2025, anugrahbodi"
+    />
+    <title>
+      SNBP Generator 2025 | Fake Lolos/Tidak Lolos SNBP | Template SNBP 2025
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://snbp.usu.ac.id/css/index.css?v=2025.0.37"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="body">
+    <span id="blocks">
+      <span class="abc">
+        <h1>SNBP GENERATOR 2025</h1>
+        <!-- <p>
+          Author:
+          <a href="https://www.instagram.com/mhmdkhrzmi/" style="color: white"
+            >@mhmdkhrzmi</a
+          >
+        </p> -->
+        <!-- <br /><br /> -->
+        <!-- <br /> -->
+        Mode:
+        <button id="toggleRedBlue" onclick="changeKabKot()">Lulus/Gagal</button>
+        <!-- <br /><br /> -->
+        Tahun:
+        <input
+          type="number"
+          placeholder="2024/2025/2026"
+          value="2025"
+          onInput="updateThnText(this.value)"
+        />
+        <!-- <br /><br /> -->
+        NISN: <br />
+        <input type="number" id="inisn" placeholder="NISN" />
+        <button onclick="generateRandom1()">Randomize NISN</button>
+        <!-- <br /><br /> -->
+        Nomor Registrasi: <br />
+        <input type="number" id="inoreg" placeholder="Nomor Registrasi" />
+        <button onclick="generateRandom2()">Randomize NoReg</button>
+        <!-- <br /><br /> -->
+        Namamu: <br />
+        <input type="text" id="inama" placeholder="ALUCARD LUCAS" />
+        <!-- <br /><br /> -->
+        Nama Kampus: <br />
+        <input type="text" id="iuniv" list="univs" placeholder="Nama Kampus" />
+        <!-- <br /><br /> -->
+        Program Studi: <br />
+        <select id="dropdownBoxes">
+          <option>--Jenjang--</option>
+          <option value="S1">S1</option>
+          <option value="D4">D4</option>
+          <option value="D3">D3</option>
+          <option value="D2">D2</option>
+          <option value="D1">D1</option>
+        </select>
+        <input type="text" id="iprodi" list="jurusans" placeholder="Jurusan" />
+        <!-- <br /><br /> -->
+        Link penerimaan kampus: <br />
+        <input
+          type="text"
+          id="ilink"
+          placeholder="https://penerimaan.mit.ac.id"
+        />
+        <button onclick="alertLink()">Link</button>
+        <!-- <br /><br /> -->
+        Tanggal Lahir: <br />
+        <input type="date" id="idate" name="Tanggal Lahirmu" />
+        <!-- <br /><br /> -->
+        Asal Sekolah: <br />
+        <input type="text" id="isch" placeholder="SMAN 1 Gotham" />
+        <!-- <br /><br /> -->
+        Anda tinggal di: <br />
+        <select id="kabBoxes">
+          <option>--Pilih--</option>
+          <option value="aa">Kabupaten</option>
+          <option value="bb">Kota</option>
+        </select>
+        <input
+          type="text"
+          id="iname-kab-kot"
+          list="kabKots"
+          placeholder="Kab/kot"
+        />
+        <!-- <br /><br /> -->
+        Provinsimu: <br />
+        <input type="text" id="iprov" list="provs" placeholder="Provinsimu" />
+        <!-- <br /><br /> -->
+      </span>
+      <datalist id="univs"></datalist>
+      <datalist id="jurusans"></datalist>
+      <datalist id="kabKots"></datalist>
+      <datalist id="provs"></datalist>
+      <br />
+      <button class="btn-green" onclick="displayInput(); generateQRCode();">
+        GENERATE
+      </button>
+      <button class="btn-red" onclick="alertNote()">Note</button>
+      <button class="btn-yellow" onclick="hideMenu()">Sembunyikan Menu</button>
+      <br />
+      <!-- <div id="latch-screen"></div> -->
+    </span>
+  </body>
+  <body>
+    <div id="main" class="main">
+      <div id="main-route" class="main-route">
+        <div id="index" class="index"></div>
+      </div>
+    </div>
+
+    <script src="qrgen.js"></script>
+    <script src="js_snbp.js"></script>
+  </body>
+</html>
